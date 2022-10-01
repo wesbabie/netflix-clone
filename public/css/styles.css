@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+  
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("/images/netflix_background_image.jpg");
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh;
+}
+h1.navbrand {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  color: #e50914;
+}
+nav .heading {
+  margin: 20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute; */
+}
+.sign {
+  text-align: center;
+  background-color: #e50914 !important;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+  color: white !important;
+}
+.story h1 {
+  font-family: "Arial", Helvetica, sans-serif;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  align-items: center !important;
+}
+.story {
+  padding-top: 100px !important;
+  color: aliceblue;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+hr {
+  height: 15px !important;
+}
+.bar {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  height: 70px !important;
+  border-radius: 0 !important;
+}
+.search {
+  background-color: #e50914 !important;
+  color: white !important;
+  width: 250px;
+  border-radius: 0 !important;
+}
+.tv {
+  color: aliceblue;
+}
+
+.download h1{
+  color:aliceblue;
+  padding-left: 20px !important;
+  width: 700px;
+  
+
+}
+.download img{
+  margin-right: 10px !important;
+}
+.download p{
+  color: aliceblue;
+  text-align: center;
+}
+
+
+
+.collapsible {
+  background-color: #eee;
+  color: #fff;
+  background-color: #303030;
+  cursor: pointer;
+  padding: 18px;
+  width: 100vh;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.75rem;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #303030;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  width: 100vh;
+  padding: 20px 18px;
+  display: none;
+  overflow: hidden;
+ font-size: 1.75rem;
+  background-color: #303030;
+}

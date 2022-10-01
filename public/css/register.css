@@ -1,0 +1,56 @@
+header{
+    padding: 0 4% !important;
+    margin: 0 !important;
+
+}
+nav h1{
+    color: #e50914;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-justify: distribute;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main div{
+    align-items: center;
+    text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+
+    /* padding: 25vh; */
+}
+main h1,h5{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+main p{
+    font-size: 18px;
+}
+header h1{
+    font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  color: #e50914 !important;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 4px;
+}
+header a{
+    font-size: 1.5rem;
+    font-family: "montserrat";
+}
+button{
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    width: 50vh;
+    height: 10vh;
+    border-radius: 5px;
+}

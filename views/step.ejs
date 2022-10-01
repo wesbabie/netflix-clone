@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/steps.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1 href="index.ejs">NETFLIX</h1>
+                <a href="#">Sign In</a>
+            </div>
+            
+        </nav>
+    </header>
+<hr>
+
+<main class="form-signin w-100 m-auto">
+
+    <form action="/step" method="post">
+        <span>STEP <B>1</B>OF <B>3</B></span>
+      <h1 class="h3 mb-3 fw-normal">Create a new password to start your membership</h1>
+  
+      <div class="form-floating text-center">
+        <div>just a few more steps and you're done! </div>
+        <div >We hate paperwork, too.</div>
+        <input type="email" class="form-control"name="username" id="floatingInput" placeholder="enter email" autocomplete="off">
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" name="password"id="floatingPassword" placeholder="add a password" autocomplete="off">
+      </div>
+  
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> please do not email me netflix special offers
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg" type="submit">Next</button>
+    </form>
+  </main>
+</body>
+</html>

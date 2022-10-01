@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("/images/n2.jpg");
+}
+html,
+body {
+  height: 100%;
+}
+p{
+  margin-top: 50px;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  color: white;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  background: rgba(94, 88, 88, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(94, 88, 88, 0.41);
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 5px;
+  border: 5px;
+
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.form-control{
+  background-color: #5b5e55 !important;
+  color: white;
+}
+button {
+  background-color: red !important;
+  color: white !important;
+}
+a{
+  text-decoration: none !important;
+}
